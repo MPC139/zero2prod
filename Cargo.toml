@@ -17,7 +17,7 @@ expand = "0.3.0"
 tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread"] }
 time = "=0.3.36"
 serde = { version = "1.0.228", features = ["derive"] }
-sqlx = { version = "0.7", default-features = false, features = [
+sqlx = { version = "0.8", default-features = false, features = [
     "runtime-tokio-rustls",
     "macros",
     "postgres",
@@ -36,7 +36,8 @@ thiserror = "=1.0.64"
 ahash = "=0.8.11"
 indexmap = "=2.2.6"
 hashbrown = "=0.14.5"
-
+watch = "0.2.3"
+config = "0.14"
 
 [dev-dependencies]
 reqwest = { version = "0.12", default-features = false, features = [
