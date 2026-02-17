@@ -1,1 +1,3 @@
 /target
+scripts/init_db.sh
+migrations/20260217122553_create_subscriptions_table.sql
